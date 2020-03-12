@@ -1,0 +1,87 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.redLight {
+    background-color: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.redHide {
+    background-color: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: hsla(0, 88%, 44%, 0.3);
+}
+
+.yellowLight {
+    background-color: yellow;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.yellowHide {
+    background-color: yellow;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: hsla(56, 92%, 65%, 0.3);
+}
+
+.greenLight {
+    background-color: rgb(2, 255, 36);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.greenHide {
+    background-color: rgb(2, 255, 36);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: hsla(118, 94%, 49%, 0.3);
+}
+
+.buttons div {
+    margin: 10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
